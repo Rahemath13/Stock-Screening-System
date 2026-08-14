@@ -1,0 +1,43 @@
+# Version Control & CI/CD
+.git
+.gitignore
+.dockerignore
+.github
+
+# Virtual Environments
+.venv
+venv
+env
+ENV
+
+# Python & Cache Files
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+.coverage
+htmlcov
+
+# IDE & Editor Files
+.vscode
+.idea
+*.swp
+
+# Build Artifacts & Logs
+build
+dist
+*.egg-info
+StockScreeningSystem.spec
+logs/*.log
+*.log
+
+# Secrets & Environment Variables
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Temporary Files
+tmp
+

@@ -1,0 +1,170 @@
+/* High-tech Dark Theme Glassmorphism Styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #0b0f19 !important;
+    color: #e5e7eb !important;
+}
+
+/* Metric Cards Styling */
+div[data-testid="stMetric"] {
+    background: linear-gradient(135deg, #111827 0%, #1f293d 100%);
+    border: 1px solid #1e293b;
+    padding: 14px 18px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+div[data-testid="stMetric"]:hover {
+    border-color: #3b82f6;
+    transform: translateY(-2px);
+}
+
+div[data-testid="stMetricLabel"] {
+    font-size: 0.8rem !important;
+    color: #9ca3af !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+div[data-testid="stMetricValue"] {
+    font-size: 1.6rem !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+}
+
+/* Signal Badges */
+.badge-buy {
+    background-color: rgba(16, 185, 129, 0.15);
+    color: #10b981;
+    border: 1px solid #10b981;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.82rem;
+    display: inline-block;
+}
+
+.badge-sell {
+    background-color: rgba(239, 68, 68, 0.15);
+    color: #ef4444;
+    border: 1px solid #ef4444;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.82rem;
+    display: inline-block;
+}
+
+.badge-neutral {
+    background-color: rgba(107, 114, 128, 0.15);
+    color: #9ca3af;
+    border: 1px solid #4b5563;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 0.82rem;
+    display: inline-block;
+}
+
+/* AI Prediction Panel Styling */
+.ai-card {
+    background: #111827;
+    border: 1px solid #1f2937;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.ai-card-title {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #9ca3af;
+    letter-spacing: 0.8px;
+    margin-bottom: 12px;
+}
+
+.ai-decision-accept {
+    color: #10b981;
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+.ai-decision-avoid {
+    color: #ef4444;
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+/* Custom Table Styling */
+.dataframe {
+    border: 1px solid #1f2937 !important;
+    border-radius: 8px !important;
+    background-color: #111827 !important;
+}
+
+.dataframe th {
+    background-color: #1f293d !important;
+    color: #9ca3af !important;
+    font-weight: 600 !important;
+    border-bottom: 1px solid #374151 !important;
+    padding: 10px !important;
+}
+
+.dataframe td {
+    border-bottom: 1px solid #1f2937 !important;
+    padding: 8px 10px !important;
+}
+
+/* Backtest Equal-Size KPI Cards */
+.backtest-card {
+    background: linear-gradient(135deg, #111827 0%, #1e293b 100%);
+    border: 1px solid #1e293b;
+    border-radius: 12px;
+    padding: 14px 10px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+    min-height: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.backtest-card:hover {
+    border-color: #3b82f6;
+    transform: translateY(-2px);
+}
+
+.backtest-title {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #9ca3af;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+    white-space: nowrap;
+}
+
+.backtest-val {
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.1;
+    white-space: nowrap;
+}
+
+.backtest-sub {
+    font-size: 0.72rem;
+    color: #10b981;
+    font-weight: 600;
+    margin-top: 4px;
+    white-space: nowrap;
+}
+
